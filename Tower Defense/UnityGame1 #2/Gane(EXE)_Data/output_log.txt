@@ -1,0 +1,50 @@
+Initialize engine version: 4.6.7f1 (bb67e21913cc)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [aticfx32.dll 8.17.10.1404]
+    Renderer: AMD Radeon HD 7700 Series
+    Vendor:   ATI
+    VRAM:     1002 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=1
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Portfolio\4003\New folder\Tower Defence\UnityGame1 #2\Gane(EXE)_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Portfolio\4003\New folder\Tower Defence\UnityGame1 #2\Gane(EXE)_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Portfolio\4003\New folder\Tower Defence\UnityGame1 #2\Gane(EXE)_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Portfolio\4003\New folder\Tower Defence\UnityGame1 #2\Gane(EXE)_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Portfolio\4003\New folder\Tower Defence\UnityGame1 #2\Gane(EXE)_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Portfolio\4003\New folder\Tower Defence\UnityGame1 #2\Gane(EXE)_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Portfolio\4003\New folder\Tower Defence\UnityGame1 #2\Gane(EXE)_Data\Managed\Path.Runtime.dll (this message is harmless)
+Loading C:\Portfolio\4003\New folder\Tower Defence\UnityGame1 #2\Gane(EXE)_Data\Managed\Path.Runtime.dll into Unity Child Domain
+- Completed reload, in  0.058 seconds
+desktop: 1920x1080 30Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Portfolio\4003\New folder\Tower Defence\UnityGame1 #2\Gane(EXE)_Data\Managed\System.Core.dll (this message is harmless)
+UnloadTime: 0.533377 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 294.
+Total: 1.874400 ms (FindLiveObjects: 0.016133 ms CreateObjectMapping: 0.013688 ms MarkObjects: 0.062577 ms  DeleteObjects: 0.580311 ms)
+
+UnloadTime: 0.687866 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1122.
+Total: 1.775155 ms (FindLiveObjects: 0.043511 ms CreateObjectMapping: 0.022000 ms MarkObjects: 0.196533 ms  DeleteObjects: 0.606222 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:InternalGetGameObject ()
+  at UnityEngine.Component.get_gameObject () [0x00000] in <filename unknown>:0 
+  at S_Tower_2.isTarget (UnityEngine.Transform target) [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1[UnityEngine.Transform].GetIndex (Int32 startIndex, Int32 count, System.Predicate`1 match) [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1[UnityEngine.Transform].Exists (System.Predicate`1 match) [0x00000] in <filename unknown>:0 
+  at S_Tower_2.OnTriggerExit (UnityEngine.Collider t) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 3.434933 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 269 unused Assets to reduce memory usage. Loaded Objects now: 201.
+Total: 3.486755 ms (FindLiveObjects: 0.020044 ms CreateObjectMapping: 0.034222 ms MarkObjects: 0.139333 ms  DeleteObjects: 2.219555 ms)
+
